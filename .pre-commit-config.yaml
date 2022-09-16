@@ -17,3 +17,8 @@ repos:
     hooks:
       - id: isort
         args: ["--profile", "black"]
+  - repo: https://github.com/pycqa/flake8
+    rev: 5.0.3
+    hooks:
+      - id: flake8
+        args: ["--config=setup.cfg", "--ignore=W504, W503"]
