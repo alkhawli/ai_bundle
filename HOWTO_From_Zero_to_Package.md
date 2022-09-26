@@ -252,3 +252,5 @@ tox
 ```
 
 After running make sure a coverage 100% is reached. Once yes, build, tag, and publish.
+
+## CI pipeline for building
