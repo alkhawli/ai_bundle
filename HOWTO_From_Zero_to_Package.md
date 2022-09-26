@@ -43,6 +43,7 @@ git add *
 git commit -m "First commit"
 git branch -M main
 git remote add origin https://github.com/alkhawli/ai_bundle.git
+git pull origin main  --allow-unrelated-histories
 git push -u origin main
 ```
 
